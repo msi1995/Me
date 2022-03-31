@@ -9,7 +9,7 @@ function Sidebar(){
     position: fixed;
     height: 100vh;
     width: 290px;
-    background-color: rgb(0,0,0);
+    background-color: rgb(0,1,0);
 
     @media screen and (max-width: 1400px) {
         display: none;
