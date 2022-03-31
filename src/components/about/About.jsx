@@ -6,7 +6,8 @@ import DownChevron from "../../svg/DownChevron";
 
 const chevronwrap = css`
     display: flex;
-    width: 5vh;
+    margin-left: 150px;
+    width: 0vh;
     height: 97vh;
     animation: bounce 4s ease-in-out infinite;
 
@@ -18,37 +19,22 @@ const chevronwrap = css`
     }
 `
 
-const chevronwrap2 = css`
-    display: flex;
-    width: 5vh;
-    height: 97vh;
-    animation: bounce 4s ease-in-out infinite;
-    display: none;
-
-    @media screen and (max-width: 391px){
-        position: absolute;
-        height: 100vh;
-        align-items: end;
-        display: inline-block;
-    }
-`
-
 function About(){
 
     return(
 
     <div id="about" className="container">
-        <div css={chevronwrap}>
-                    <a href="#contact">
-                        <DownChevron/>
-                    </a>
-                </div>
         <div className="container-left">
             <div className="card bg"></div>
             <div className="card">
                 <img src={Deadlift} 
                 alt="Me deadlifting!" 
                 className="card-img" />
+            </div>
+            <div css={chevronwrap}>
+                <a href="#contact">
+                    <DownChevron/>
+                </a>
             </div>
         </div>
         <div className="container-right">
