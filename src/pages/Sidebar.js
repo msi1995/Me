@@ -20,7 +20,7 @@ function Sidebar() {
         background-color: black;
         height: 100vh;
         width: 300px;
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 1400px) {
             display: none;
         }
     `;

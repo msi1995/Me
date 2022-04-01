@@ -1,6 +1,6 @@
 {
-  "homepage": "http://msi1995.github.io/Personal-Site",
-  "name": "personal-site",
+  "homepage": "http://msi1995.github.io/Me/#home",
+  "name": "Me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

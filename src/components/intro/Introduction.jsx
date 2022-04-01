@@ -32,6 +32,34 @@ const introTitleItem = css`
   align-items: center;
 `;
 
+const ResumeDesktop = css`
+    font-weight: bold;
+    height: 50px;
+    font-size: 30px;
+    color: rgb(41, 174, 251);
+    display: flex;
+    align-items: center;
+    display: flex;
+
+    @media screen and (max-width: 480px) {
+        display: none;
+}
+`;
+
+const ResumeMobile = css`
+  font-weight: bold;
+  height: 50px;
+  font-size: 30px;
+  color: rgb(41, 174, 251);
+  display: flex;
+  align-items: center;
+  display: none;
+
+  @media screen and (max-width: 480px) {
+      display: flex;
+  }
+`;
+
 const intro_l_wrapper = css`
     height: 45%;
     width: 100%;
@@ -72,12 +100,14 @@ function Introduction(){
                     <div className="intro-title">
                             <div css={introTitleWrapper} onClick={ () => {}}>
                             <a className="resume" href={Resume} download="DougLloyd_Resume">
-                                <div css={introTitleItem}>Click For Résumé!</div>
+                                <div css={ResumeMobile}>Hold For Résumé!</div>
+                                <div css={ResumeDesktop}>Click For Résumé!</div>
                                 <div css={introTitleItem}>OSU Student</div>
                                 <div css={introTitleItem}>Software Engineer</div>
                                 <div css={introTitleItem}>Python Gladiator</div>
                                 <div css={introTitleItem}>Fitness Enthusiast</div>
-                                <div css={introTitleItem}>Click For Résumé!</div>
+                                <div css={ResumeDesktop}>Click For Résumé!</div>
+                                <div css={ResumeMobile}>Hold For Résumé!</div>
                             </a>
                             </div>
                     </div>
