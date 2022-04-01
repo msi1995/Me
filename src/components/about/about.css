@@ -20,6 +20,11 @@
         text-align: center;
     }
 
+    .card:hover{
+        height: 70vh;
+        width: 61%;
+    }
+
     p{
         width: 95% !important;
         display: inline-block;
