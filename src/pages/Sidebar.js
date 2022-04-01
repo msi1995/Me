@@ -5,6 +5,7 @@ function Sidebar(){
 
     const sideStyles = css`
     display: flex;
+    color: white;
     background-color:gray;
     position: fixed;
     height: 100vh;

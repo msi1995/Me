@@ -55,7 +55,7 @@ const chevronwrap = css`
     height: 97vh;
     animation: bounce 4s ease-in-out infinite;
 
-    @media screen and (max-width: 391px){
+    @media screen and (max-width: 450px){
         position: absolute;
         align-items: end;
     }

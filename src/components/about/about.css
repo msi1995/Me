@@ -42,7 +42,6 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .container{
@@ -106,8 +105,7 @@
 }
 
 .chevron{
-    display: block !important;
-    margin: auto !important;
+    margin: auto;
     width: 45px;
 }
 

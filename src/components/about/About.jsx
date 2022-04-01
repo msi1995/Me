@@ -5,26 +5,17 @@ import Deadlift from "../../images/deadlift2.jpg"
 import DownChevron from "../../svg/DownChevron";
 
 const chevronwrap = css`
+    position: relative;
+    text-align: center;
     height: 5vh;
     width: 100%;
     animation: bounce 4s ease-in-out infinite;
 
-    @media screen and (max-width: 391px){
+    @media screen and (max-width: 450px){
 
     }
 `
 
-
-const test = css`
-position: absolute;
-right: 50%;
-bottom: 0;
-
-@media screen and (max-width: 391px){
-        right: 44%;
-    }
-
-`
 
 function About(){
 
@@ -60,7 +51,7 @@ function About(){
             </div>
         </div>
         <div css={chevronwrap}>
-            <a css={test} href="#contact">
+            <a css={chevronwrap} href="#contact">
                 <DownChevron/>
             </a>
         </div>

@@ -9,7 +9,7 @@ import Contact from '../components/contact/Contact';
 
 function MainDisplay() {
     const bodyStyle = css`
-        padding-left: 300px;
+        padding-left: 290px;
         @media screen and (max-width: 1400px) {
             padding-left: 0px;
         }

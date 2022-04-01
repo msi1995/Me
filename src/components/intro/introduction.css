@@ -41,6 +41,10 @@ html{
         .intro-r{
             display: none;
         }
+
+        .intro-l{
+          width: 100%;
+        }
         .intro-para{
             display: none;
         }
