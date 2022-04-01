@@ -11,8 +11,8 @@
     }
     .card{
         width: 95% !important;
-        height: 48vh !important;
-        margin: 7px 0px;
+        height: 40vh !important;
+        margin: 5px 0px !important;
     }
 
     .container-right{
@@ -27,7 +27,7 @@
     }
 
     p{
-        width: 95% !important;
+        width: 85% !important;
         display: inline-block;
         margin-bottom: 10px;
         margin-top: 2px;
