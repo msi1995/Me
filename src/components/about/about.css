@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1400px){
     .card.bg{
         display: none;
@@ -36,9 +37,17 @@
 
 }
 
-.container{
+.full-container{
     position: relative;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    height: 95vh;
     display: flex;
     align-items: center;
 }
@@ -97,10 +106,9 @@
 }
 
 .chevron{
-    position: absolute;
+    display: block !important;
+    margin: auto !important;
     width: 45px;
-    bottom: 0;
-    right: 0;
 }
 
 .chevron:hover{
