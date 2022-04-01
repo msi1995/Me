@@ -104,7 +104,7 @@ function Introduction(){
                                 <div css={ResumeDesktop}>Click For Résumé!</div>
                                 <div css={introTitleItem}>OSU Student</div>
                                 <div css={introTitleItem}>Software Engineer</div>
-                                <div css={introTitleItem}>Python Gladiator</div>
+                                <div css={introTitleItem}>Python Developer</div>
                                 <div css={introTitleItem}>Fitness Enthusiast</div>
                                 <div css={ResumeDesktop}>Click For Résumé!</div>
                                 <div css={ResumeMobile}>Hold For Résumé!</div>
