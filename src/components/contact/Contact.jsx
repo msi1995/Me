@@ -39,7 +39,7 @@ function Contact(){
                             </div>
                             <div className="c-info-item">
                                 <img src={Email} alt="text" className="c-icon" />
-                                lloyddo@oregonstate.edu
+                                lloyd.dg7@gmail.com
                             </div>
                         </div>
                     </div>
