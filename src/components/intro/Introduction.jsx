@@ -64,7 +64,7 @@ const chevronwrap = css`
 function Introduction(){
 
     return(
-        <div className="intro" css={intro}>
+        <div id="home" className="intro" css={intro}>
             <div className="intro-l">
                 <div className="intro-l-wrapper" css={intro_l_wrapper}>
                     <h2 className="intro-msg">Hello, my name is</h2>

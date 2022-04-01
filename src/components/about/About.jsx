@@ -30,11 +30,6 @@ function About(){
                     alt="Me deadlifting!" 
                     className="card-img" />
                 </div>
-                {/* <div css={chevronwrap}>
-                    <a href="#contact">
-                        <DownChevron/>
-                    </a>
-                </div> */}
             </div>
             <div className="container-right">
                 <h1 className="title">About Me</h1>
