@@ -45,7 +45,10 @@ function Contact(){
                     </div>
                     <div className="c-right">
                     <p className="c-desc">
-                        <b>I'm always interested in great opportunities!</b> If you have questions, comments,
+                        <b className="desc-bold">I'm always interested in great opportunities!</b>
+                        <br></br>
+                        <br></br>
+                         If you have questions, comments,
                         or an opportunity, please don't hesitate to fill out the form below.
                     </p>
                     <form ref={formRef} onSubmit={formSubmitted}>

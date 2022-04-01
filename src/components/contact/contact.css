@@ -1,6 +1,18 @@
 
 @media screen and (max-width: 480px){
 
+    .c-desc{
+        padding-top: 20px;
+        width: 110% !important;
+        font-size: 14px !important;
+    }
+
+    .desc-bold{
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+
+
     .c{
         padding-top: 0vh !important;
 
@@ -14,7 +26,7 @@
     .c-title{
         font-size: 21px !important;
         padding: 10px 0px !important;
-        font-weight: 500 !important;
+        font-weight: 700 !important;
         width: 100% !important;
         text-align:center;
     }
@@ -35,6 +47,10 @@
         align-items: center;
         margin: 20px 0px !important;
         font-weight: 300 !important;
+    }
+
+    .c-right{
+        align-items: center;
     }
 
     form{
@@ -64,6 +80,7 @@
     }
 
 }
+
 
 
 .main-container{

@@ -9,6 +9,7 @@ const chevronwrap = css`
     text-align: center;
     height: 5vh;
     width: 100%;
+    z-index: 1;
     animation: bounce 4s ease-in-out infinite;
 
     @media screen and (max-width: 450px){
