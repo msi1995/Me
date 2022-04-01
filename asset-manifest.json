@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Personal-Site/static/css/main.4330ee82.css",
-    "main.js": "/Personal-Site/static/js/main.f8e37586.js",
+    "main.css": "/Personal-Site/static/css/main.259ef97f.css",
+    "main.js": "/Personal-Site/static/js/main.4e02dd51.js",
     "static/media/deadlift2.jpg": "/Personal-Site/static/media/deadlift2.e24e24d2156ea7d39fe5.jpg",
+    "static/media/aperture2.png": "/Personal-Site/static/media/aperture2.e043d99f7c34c26e242f.png",
     "static/media/Resume.pdf": "/Personal-Site/static/media/Resume.7142b753df48244d8a5c.pdf",
     "static/media/email.png": "/Personal-Site/static/media/email.a49e015815e3ac6d2bd3.png",
     "static/media/Phone.png": "/Personal-Site/static/media/Phone.c8551253f2a057b070e9.png",
     "index.html": "/Personal-Site/index.html",
-    "main.4330ee82.css.map": "/Personal-Site/static/css/main.4330ee82.css.map",
-    "main.f8e37586.js.map": "/Personal-Site/static/js/main.f8e37586.js.map"
+    "main.259ef97f.css.map": "/Personal-Site/static/css/main.259ef97f.css.map",
+    "main.4e02dd51.js.map": "/Personal-Site/static/js/main.4e02dd51.js.map"
   },
   "entrypoints": [
-    "static/css/main.4330ee82.css",
-    "static/js/main.f8e37586.js"
+    "static/css/main.259ef97f.css",
+    "static/js/main.4e02dd51.js"
   ]
 }
