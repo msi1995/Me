@@ -81,13 +81,13 @@ const intro_l_wrapper = css`
 const chevronwrap = css`
     position: relative;
     text-align: center;
-    height: 10vh;
+    height: 5vh;
     width: 100%;
     z-index: 1;
     animation: bounce 4s ease-in-out infinite;
 
     @media screen and (max-width: 450px){
-
+        height: 10vh;
     }
 `
 
