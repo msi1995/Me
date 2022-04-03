@@ -79,7 +79,8 @@ const intro_l_wrapper = css`
 `
 
 const chevronwrap = css`
-    display: flex;
+    position: absolute;
+    width: 45vw;
     height: 97vh;
     animation: bounce 4s ease-in-out infinite;
 
