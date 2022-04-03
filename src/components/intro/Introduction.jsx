@@ -87,7 +87,7 @@ const chevronwrap = css`
     animation: bounce 4s ease-in-out infinite;
 
     @media screen and (max-width: 450px){
-        height: 10vh;
+        height: 18vh;
     }
 `
 
