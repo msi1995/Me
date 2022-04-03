@@ -7,7 +7,7 @@ import Resume from '../../files/Resume.pdf';
 
 const intro = css`
         display: flex;
-        height: 100vh;
+        height: 95vh;
         @media screen and (max-width: 480px) {
             flex-direction: column;
         }
@@ -79,20 +79,22 @@ const intro_l_wrapper = css`
 `
 
 const chevronwrap = css`
-    position: absolute;
-    width: 45vw;
-    height: 97vh;
+    position: relative;
+    text-align: center;
+    height: 5vh;
+    width: 100%;
+    z-index: 1;
     animation: bounce 4s ease-in-out infinite;
 
     @media screen and (max-width: 450px){
-        position: absolute;
-        align-items: end;
+
     }
 `
 
 function Introduction(){
 
     return(
+        <div className="full-container-i">
         <div id="home" className="intro" css={intro}>
             <div className="intro-l">
                 <div className="intro-l-wrapper" css={intro_l_wrapper}>
@@ -117,17 +119,17 @@ function Introduction(){
                         I specialize in full-stack development, and have an affinity for working with Python, C++ (my first language), and React.js. I'm always looking for new and interesting technology to learn!
                     </p>
                 </div>
-                <div css={chevronwrap}>
-                    <a href="#about">
-                        <DownChevron/>
-                    </a>
-                </div>
-                    
             </div>
             <div className="intro-r">
                 <div className="i-bg"></div>
                 {/* <img src={Portal} className="intro-img" /> */}
             </div>
+        </div>
+        <div css={chevronwrap}>
+                    <a href="#about">
+                        <DownChevron/>
+                    </a>
+                </div>
         </div>
     )
 }

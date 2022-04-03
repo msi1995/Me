@@ -12,6 +12,13 @@ html{
     scroll-behavior: smooth;
 }
 
+.full-container-i{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .intro-msg{
     font-size: 30px;
     font-weight: 300;
@@ -113,10 +120,8 @@ html{
 
 
       .chevron{
-          position: absolute;
-          width: 45px;
-          bottom: 0;
-          right: 0;
+        margin: auto;
+        width: 45px;
       }
 
       .chevron:hover{
