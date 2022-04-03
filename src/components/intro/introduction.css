@@ -55,9 +55,6 @@ html{
         .intro-para{
             display: none;
         }
-        .chevron{
-            position: relative !important;
-        }
         .intro-name{
             padding: 20px 0px;
         }
