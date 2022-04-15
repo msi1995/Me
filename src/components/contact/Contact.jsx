@@ -1,4 +1,6 @@
 import "./contact.css"
+import { useState } from "react";
+import emailSuccess from "../../gifs/email1loopcropped.gif"
 
 // import { BsFillTelephoneOutboundFill } from 'react-icons/bs'
 import Phone from '../../images/Phone.png';
@@ -9,10 +11,20 @@ import emailjs from 'emailjs-com'
 
 function Contact(){
 
+    const [formWasSubmitted, SetFormWasSubmitted] = useState(false);
     const formRef = useRef();
 
     function formSubmitted(e){
         e.preventDefault();
+        if(e.target["name"].value === "" 
+        || e.target["subject"].value === "" 
+        || e.target["email"].value === "" 
+        || e.target["msg"].value === ""){
+            alert("Please fill out the form completely.")
+            return -1;
+        }
+        SetFormWasSubmitted(true);
+
         emailjs.sendForm("service_ebmh8hb", 
         "template_9izfnzj", 
         formRef.current, 
@@ -22,12 +34,6 @@ function Contact(){
         }, (error) => {
             console.log(error.text);
         });
-        
-        //clear fields
-        e.target["name"].value = ""
-        e.target["subject"].value = ""
-        e.target["email"].value = ""
-        e.target["msg"].value = ""
     };
 
 
@@ -50,6 +56,8 @@ function Contact(){
                         </div>
                     </div>
                     <div className="c-right">
+                    {!formWasSubmitted? (
+                        <div>
                     <p className="c-desc">
                         <b className="desc-bold">I'm always interested in great opportunities!</b>
                         <br></br>
@@ -64,7 +72,20 @@ function Contact(){
                         <textarea id="msg" rows="6" placeholder="What's the secret?" name="message"/>
                         <br></br>
                         <button>Submit</button>
-                    </form>
+                    </form></div>) : (
+                        <div style={{ display:"flex", flexDirection: "column", alignItems: "flex-start"}}>
+                        <span style={{fontSize: "24px"}}>Thanks! I'll get back to you soon.</span>
+                        <img src={emailSuccess} style={{width: "350px"}}/>
+                        </div>
+                    )}
+                    {/* // <form ref={formRef} onSubmit={formSubmitted}>
+                    //     <input id="name" type="text" placeholder="Who are you?" name="user_name" />
+                    //     <input id="subject" type="text" placeholder="Subject" name="user_subject" />
+                    //     <input id="email" type="text" placeholder="Email Address" name="user_email" />
+                    //     <textarea id="msg" rows="6" placeholder="What's the secret?" name="message"/>
+                    //     <br></br>
+                    //     <button>Submit</button>
+                    // </form> */}
                     </div>
                 </div>
             </div>
