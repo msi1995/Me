@@ -22,6 +22,12 @@ function Contact(){
         }, (error) => {
             console.log(error.text);
         });
+        
+        //clear fields
+        e.target["name"].value = ""
+        e.target["subject"].value = ""
+        e.target["email"].value = ""
+        e.target["msg"].value = ""
     };
 
 
@@ -52,10 +58,10 @@ function Contact(){
                         or an opportunity, please don't hesitate to fill out the form below.
                     </p>
                     <form ref={formRef} onSubmit={formSubmitted}>
-                        <input type="text" placeholder="Who are you?" name="user_name" />
-                        <input type="text" placeholder="Subject" name="user_subject" />
-                        <input type="text" placeholder="Email Address" name="user_email" />
-                        <textarea rows="6" placeholder="What's the secret?" name="message"/>
+                        <input id="name" type="text" placeholder="Who are you?" name="user_name" />
+                        <input id="subject" type="text" placeholder="Subject" name="user_subject" />
+                        <input id="email" type="text" placeholder="Email Address" name="user_email" />
+                        <textarea id="msg" rows="6" placeholder="What's the secret?" name="message"/>
                         <br></br>
                         <button>Submit</button>
                     </form>
