@@ -72,20 +72,15 @@ function Contact(){
                         <textarea id="msg" rows="6" placeholder="What's the secret?" name="message"/>
                         <br></br>
                         <button>Submit</button>
+
+                        {/* this might fix issue with slow load on image */}
+                        <img src={emailSuccess} alt="Email sent, thanks!" style={{display: "none"}}/>
                     </form></div>) : (
                         <div style={{ display:"flex", flexDirection: "column", alignItems: "flex-start"}}>
                         <span style={{fontSize: "24px"}}>Thanks! I'll get back to you soon.</span>
-                        <img src={emailSuccess} style={{width: "350px"}}/>
+                        <img src={emailSuccess} alt="Email sent, thanks!" style={{display: "inline", width: "350px"}}/>
                         </div>
                     )}
-                    {/* // <form ref={formRef} onSubmit={formSubmitted}>
-                    //     <input id="name" type="text" placeholder="Who are you?" name="user_name" />
-                    //     <input id="subject" type="text" placeholder="Subject" name="user_subject" />
-                    //     <input id="email" type="text" placeholder="Email Address" name="user_email" />
-                    //     <textarea id="msg" rows="6" placeholder="What's the secret?" name="message"/>
-                    //     <br></br>
-                    //     <button>Submit</button>
-                    // </form> */}
                     </div>
                 </div>
             </div>
