@@ -16,7 +16,7 @@
     }
 
     .card-img{
-        object-fit: fill !important;
+        object-fit: cover !important;
     }
 
     .container-right{
@@ -57,6 +57,8 @@
 
 .container-left{
     position: relative;
+    max-width: 225px;
+    max-height: 340px;
     flex: 1;
     display: flex;
     align-items: center;
