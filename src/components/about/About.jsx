@@ -46,11 +46,6 @@ function About(){
                     
             </div>
         </div>
-        <div css={chevronwrap}>
-            <a css={chevronwrap} href="#contact">
-                <DownChevron/>
-            </a>
-        </div>
     </div>
     )
 }
