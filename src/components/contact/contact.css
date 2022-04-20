@@ -122,7 +122,7 @@
 }
 
 .c-wrapper{
-    padding: 70px;
+    padding: 0px 70px;
     display: flex;
     /* border: 1px solid green; */
 }
