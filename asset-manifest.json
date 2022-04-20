@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Me/static/css/main.c190dbcf.css",
+    "main.css": "/Me/static/css/main.8d93430b.css",
     "main.js": "/Me/static/js/main.0d53c50d.js",
     "static/media/deadlift2.jpg": "/Me/static/media/deadlift2.e24e24d2156ea7d39fe5.jpg",
     "static/media/email1loopcropped.gif": "/Me/static/media/email1loopcropped.2288a7b64875cfb7ebe4.gif",
@@ -9,11 +9,11 @@
     "static/media/email.png": "/Me/static/media/email.a49e015815e3ac6d2bd3.png",
     "static/media/Phone.png": "/Me/static/media/Phone.c8551253f2a057b070e9.png",
     "index.html": "/Me/index.html",
-    "main.c190dbcf.css.map": "/Me/static/css/main.c190dbcf.css.map",
+    "main.8d93430b.css.map": "/Me/static/css/main.8d93430b.css.map",
     "main.0d53c50d.js.map": "/Me/static/js/main.0d53c50d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c190dbcf.css",
+    "static/css/main.8d93430b.css",
     "static/js/main.0d53c50d.js"
   ]
 }
