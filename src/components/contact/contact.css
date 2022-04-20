@@ -87,7 +87,6 @@
 
 .main-container{
     position: relative;
-    align-items: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -95,6 +94,8 @@
 }
 
 .c{
+    display: flex;
+    align-items: center;
     position: relative;
     height: 95vh;
     width: 100%;
