@@ -25,6 +25,11 @@
         text-align: center;
     }
 
+    .container-left{
+        max-width: 225px;
+        max-height: 340px;
+    }
+
     .card:hover{
         height: 70vh;
         width: 61%;
@@ -57,8 +62,6 @@
 
 .container-left{
     position: relative;
-    max-width: 225px;
-    max-height: 340px;
     flex: 1;
     display: flex;
     align-items: center;
