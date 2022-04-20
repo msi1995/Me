@@ -62,7 +62,7 @@ const ResumeMobile = css`
 `;
 
 const intro_l_wrapper = css`
-    height: 45%;
+    height: 55%;
     width: 100%;
     padding: 50px;
     min-width: 30px;
