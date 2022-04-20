@@ -38,7 +38,8 @@
     }
 
     .c-wrapper{
-        padding-top: 15vh !important;
+        padding-top: 70% !important;
+        padding-bottom: 5vh !important;
         flex-direction: column;
         text-align: center;
     }
