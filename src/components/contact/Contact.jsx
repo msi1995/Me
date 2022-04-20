@@ -40,7 +40,7 @@ function Contact(){
     return(
         <div className="main-container">
             <div className="c">
-                <div className="c-bg"></div>
+            <div className="c-bg"/>
                 <div className="c-wrapper">
                     <div className="c-left">
                         <h1 id="contact" className="c-title">Do you want to talk? Hate my color scheme? Let me know:</h1>

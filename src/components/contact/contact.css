@@ -86,11 +86,11 @@
 
 
 .main-container{
+    position: relative;
+    align-items: center;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    /* border: 2px solid red; */
-    /* padding: 10px; */
 
 }
 
@@ -98,9 +98,6 @@
     position: relative;
     height: 95vh;
     width: 100%;
-
-    padding-top: 30vh;
-
     background-color: rgb(255, 255, 255);
 
 }
@@ -112,12 +109,11 @@
 }
 
 .c-bg{
+    position: absolute;
     width: 20px;
     height: 100vh;
     background-color: rgb(41, 174, 251);
-    display: hidden;
-    margin-bottom: -75vh;
-
+    /* display: hidden; */
 }
 
 .c-wrapper{
